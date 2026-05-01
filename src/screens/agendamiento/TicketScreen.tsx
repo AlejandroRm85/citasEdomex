@@ -86,7 +86,7 @@ export default function TicketScreen({ navigation, route }: Props) {
         <View style={styles.ticket}>
           {/* Cabecera */}
           <View style={styles.ticketHeader}>
-            <Text style={styles.ticketHeaderTitle}>🏛️  Poder Judicial — Edomex</Text>
+            <Text style={styles.ticketHeaderTitle}>🏛️  Citas — Edomex</Text>
             <Text style={styles.ticketHeaderSub}>Ticket de acceso digital — No transferible</Text>
           </View>
 

@@ -39,7 +39,7 @@ export default function LoginScreen({ navigation }: Props) {
       <View style={styles.header}>
         <Text style={styles.escudo}>🦅</Text>
         <Text style={styles.titulo}>CitasEdomex</Text>
-        <Text style={styles.subtitulo}>Poder Judicial del Estado de México</Text>
+        <Text style={styles.subtitulo}>Poder Judicial</Text>
       </View>
 
       {/* Franja tricolor */}
@@ -98,8 +98,7 @@ export default function LoginScreen({ navigation }: Props) {
         </TouchableOpacity>
 
         <Text style={styles.legal}>
-          Al ingresar aceptas los términos y condiciones del{'\n'}
-          Poder Judicial del Estado de México
+          Al ingresar aceptas los términos y condiciones del servicio{'\n'}
         </Text>
       </ScrollView>
     </SafeAreaView>
